@@ -1,8 +1,12 @@
 # Ein Test für Git-Branches
 
-def main():
+def setup():
+   print("setup")
+
+def loop():
   print("Hello, tolle Git-Welt!")
 
 if __name__=="__main__":
-  main()
+  setup()
+  while True: loop()
 

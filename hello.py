@@ -8,7 +8,7 @@ def setup():
    animation()
 
 def loop():
-  print("Hello, tolle Git-Welt!")
+  print("Hello, tolle Animations-Welt!")
 
 if __name__=="__main__":
   setup()
